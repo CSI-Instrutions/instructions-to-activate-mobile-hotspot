@@ -1,0 +1,176 @@
+<!DOCTYPE html>  
+<html>
+<head>
+    <title>Instructions de Configuration du Point d'Accès Mobile</title>
+    <style>
+        /* Style de base */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .instruction {
+            margin-bottom: 20px;
+        }
+        .instruction img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .instruction p {
+            margin: 10px 0;
+        }
+        .note {
+            background-color: #f9f9f9;
+            border-left: 5px solid #007bff;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .platform-section {
+            margin-bottom: 40px;
+        }
+        .platform-header {
+            background-color: #f9f9f9;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+        .modal img {
+            width: 100%;
+            height: auto;
+        }
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instructions pour Modifier le Point d'Accès Mobile</h1>
+        <p>Pour que le service de maintenance puisse se connecter à distance, veuillez suivre les instructions ci-dessous pour modifier le nom de votre point d'accès mobile et le mot de passe. Les étapes sont fournies pour iOS et Android.</p>
+        
+        <!-- Section iOS -->
+        <div class="platform-section">
+            <div class="platform-header">
+                <h2>Instructions pour iOS</h2>
+            </div>
+            <div class="instruction">
+                <h3>1. Ouvrez les Réglages de Votre iPhone</h3>
+                <p>Ouvrez les réglages de votre iPhone, cliquez sur "Général", puis sur l’option "Informations".</p>
+            </div>
+            
+            <div class="instruction">
+                <h3>2. Modifiez le Nom de l'Appareil</h3>
+                <p>Sélectionnez la rubrique "Nom" se trouvant tout en haut de la fenêtre et donnez un nouveau nom à votre appareil: "csi".</p>
+            </div>
+            
+            <div class="instruction">
+                <h3>3. Accédez aux Paramètres de Réseau</h3>
+                <p>Accédez à "Réglages" > "Réseau cellulaires"</p>
+                <img src="https://cdsassets.apple.com/live/7WUAS350/images/ios/locale/fr-ca/ios-17-iphone-15-pro-settings-general.png" alt="">
+            </div>
+
+            <div class="instruction">
+                <h3>4. Activer les données cellulaires</h3>
+                <p>Activer les données cellulaires" > "Partage de connexion" > "Activer le partage de connexion"</p>
+                <img src="https://cdsassets.apple.com/live/7WUAS350/images/ios/locale/fr-fr/ios-16-iphone-13-pro-settings-cellular.png" alt="">
+                <img src="https://www.varcap-informatique.net/tutoriels/wp-content/uploads/2015/02/ios8-partage-connexion-b.png" alt="">
+            </div>
+
+            <div class="instruction">
+                <h3>5. Modifiez le Mot de Passe</h3>
+                <p>Entrez le nouveau mot de passe du réseau : "csi2024industrie".</p>
+                <img src="https://support.apple.com/library/content/dam/edam/applecare/images/fr_FR/iOS/ios14-iphone11-pro-settings-personal-hotspot-on.jpg" alt=" ">
+            </div>
+
+            <div class="instruction">
+                <h3>5. Enregistrez les Modifications</h3>
+                <p>Assurez-vous que les paramètres sont correctement enregistrés.</p>
+            </div>
+        </div>
+        
+        <!-- Section Android -->
+        <div class="platform-section">
+            <div class="platform-header">
+                <h2>Instructions pour Android</h2>
+            </div>
+            <div class="instruction">
+                <h3>1. Accédez aux Paramètres de Réseau</h3>
+                <p>Ouvrez les paramètres de votre téléphone Android et accédez à "Connexions" > "Point d'accès mobile".</p>
+                <img src="https://images.frandroid.com/wp-content/uploads/2019/02/screenshot-20220324-175451-settings.jpg" alt="">
+            </div>
+
+            <div class="instruction">
+                <h3>2. Activer le point d'accès mobile </h3>
+                <p> Activer le point d'accès mobile en appuyant sur le bouton à droite, puis activer vos données mobiles. Accéder ensuite aux paramètres du point d'accès. > "Point d'accès mobile".</p>
+                <img src="https://images.frandroid.com/wp-content/uploads/2019/02/screenshot-20220324-175456-settings-scaled.jpg" alt="">
+            </div>
+            
+            <div class="instruction">
+                <h3>3. Modifiez le Nom du Point d'Accès</h3>
+                <p>Touchez "Configurer le point d'accès Wi-Fi" et modifiez le nom du réseau en "csi" et le mot de passe en "csi2024industrie".</p>
+                <img src="https://images.frandroid.com/wp-content/uploads/2019/02/screenshot-20220324-175007-settings.jpg" alt=" ">
+            </div>
+            
+            <div class="instruction">
+                <h3>4. Enregistrez les Modifications</h3>
+                <p>Assurez-vous que les paramètres sont correctement enregistrés.</p>
+            </div>
+        </div>
+        
+        <div class="note">
+            <p>Une fois les modifications effectuées, vous serez prêt à fournir les informations nécessaires au service de maintenance.</p>
+        </div>
+    </div>
+
+</body>
+</html>
